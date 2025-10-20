@@ -5,6 +5,8 @@ import testimonialSlice from "../slices/testimonialSlice";
 import pricingSlice from "../slices/pricingSlice";
 import companySlice from "../slices/companySlice";
 import teamSlice from "../slices/teamSlice";
+import howSlice from "../slices/howSlice";
+import faqSlice from "../slices/faqSlice";
 export const store = configureStore({
   reducer: {
     features: featuresSlice,
@@ -13,6 +15,8 @@ export const store = configureStore({
     price: pricingSlice,
     company: companySlice,
     team: teamSlice,
+    how: howSlice,
+    faq: faqSlice,
   },
 });
 

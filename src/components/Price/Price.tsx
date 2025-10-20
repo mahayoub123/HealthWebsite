@@ -33,6 +33,12 @@ const Price: React.FC = () => {
                 {price.price}
               </span>
             </div>
+            <div>
+              {" "}
+              <button className="bg-[#CBEA7B] rounded-[8px] pt-[18px] pr-[41px] pb-[18px] pl-[41px] font-urb">
+                Choose Plan
+              </button>
+            </div>
           </div>
         ))}
       </div>
