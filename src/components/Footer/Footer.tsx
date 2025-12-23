@@ -42,6 +42,10 @@ const Footer: React.FC = () => {
             <p className="font-urb"> hello@skillbridge.com</p>
             <p className="font-urb"> +91 91813 23 2309</p>
             <p className="font-urb">Somewhere in the World</p>
+            <p>
+              © Debeloped by Front End Developer: Mahmoud Ayoub. All Rights
+              Reserved
+            </p>
           </div>
 
           <div className="flex gap-4">
